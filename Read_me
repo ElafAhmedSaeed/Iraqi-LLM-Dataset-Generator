@@ -1,0 +1,19 @@
+Overview
+This project focuses on building a specialized Iraqi Arabic dataset generation pipeline for training and fine-tuning Large Language Models (LLMs).
+The main goal is to create an AI model that can understand and respond using natural Iraqi dialect while also being specialized in technical and educational domains.
+The system automatically converts educational PDF documents into structured Question-and-Answer datasets in both:
+•	Formal Arabic 
+•	Iraqi Dialect Arabic 
+The generated output is saved in JSONL format, which is the standard format used for LLM fine-tuning.
+
+Project Goal
+Most existing LLMs are trained mainly on:
+•	English 
+•	Modern Standard Arabic (MSA) 
+However, Iraqi dialect data is very limited.
+This project solves that problem by automatically generating high-quality Iraqi instruction datasets from books, lectures, and educational materials.
+The final objective is to train or fine-tune an Iraqi-specialized LLM capable of:
+•	Understanding Iraqi dialect 
+•	Answering in Iraqi dialect 
+•	Understanding technical terminology 
+•	Supporting educational and scientific topics
